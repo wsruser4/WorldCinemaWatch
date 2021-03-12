@@ -29,6 +29,7 @@
             android:layout_marginBottom="16dp"/>
 
         <EditText
+            android:id="@+id/et1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
@@ -40,6 +41,7 @@
             android:layout_marginTop="50dp" />
 
         <EditText
+            android:id="@+id/et2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/password"
@@ -58,7 +60,7 @@
             android:layout_marginTop="130dp">
 
             <TextView
-                android:id="@+id/gone"
+                android:id="@+id/frameLayout1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/vhod"
