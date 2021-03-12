@@ -18,10 +18,17 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="10dp"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="120dp"
+        android:background="@drawable/colorgray"
+        android:hint="Email"
+        android:textColorHint="#fff"
+        android:paddingLeft="100dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

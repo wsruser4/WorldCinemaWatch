@@ -24,22 +24,52 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"/>
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="120dp"
-            android:background="@drawable/colorgray"
             android:hint="Email"
             android:textColorHint="#fff"
-            android:paddingLeft="100dp"
-            android:paddingBottom="8dp"
-            android:paddingTop="8dp"/>
+            android:background="@drawable/colorgray"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="64dp"
+            android:layout_marginTop="50dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textColorHint="#fff"
+            android:background="@drawable/colorgray"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="48dp"
+            android:layout_marginTop="90dp"
+            android:inputType="textPassword"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/colorbutton"
+            android:layout_marginTop="130dp">
+
+            <TextView
+                android:id="@+id/gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vhod"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:paddingLeft="60dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+        </FrameLayout>
+
 
     </FrameLayout>
 

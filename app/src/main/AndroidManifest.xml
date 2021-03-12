@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.worldcinemawatch" >
+    package="com.example.worldcinemawatch">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
@@ -11,8 +11,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.DeviceDefault" >
-
+        android:theme="@android:style/Theme.DeviceDefault">
+        <activity android:name=".MainScreen.MainScreen"></activity>
         <activity android:name=".SgnIn.SignInScreen" />
 
         <uses-library
@@ -28,7 +28,7 @@
 
         <activity
             android:name=".Main.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
